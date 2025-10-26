@@ -3,8 +3,8 @@ package toDo;
 public class donguler {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		int sayi =0;
+
+	//	int sayi =0;
 	
 	/* for dongusu	
 		for ( sayi=0;sayi <=5;sayi++) {

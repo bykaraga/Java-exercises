@@ -49,7 +49,7 @@ while(k < input)
 	
 	
 	//faktoriyel 
-	/*	
+/*
 	System.out.println("sayi giriniz");
 	
 	int f;
@@ -61,9 +61,9 @@ while(k < input)
 		sonuc *=f;
 		f--;
 	}System.out.print(sonuc);
-	
-	
 	*/
+	
+
 	//asal sayı bulma
 //		System.out.println("Asal sayi bulmak icin sayi giriniz:");
 //		int sayi = scan.nextInt();
