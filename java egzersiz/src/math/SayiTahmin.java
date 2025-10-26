@@ -7,9 +7,10 @@ public class SayiTahmin {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         Random rand = new Random();
-        int tahmin =0, can = 3;
+        int tahmin =0, can = 3,i=0;
         boolean oyunDurum = false;
         int sayi = rand.nextInt(10);
+int[] tahminler =new int[3];
 
         System.out.println("Sayi tahmine hosgeldin");
         System.out.println("3 tane tahmin hakkin var rasgele bir sayiyi tahmin et 1 ila 10 arasinda");
@@ -18,6 +19,7 @@ public class SayiTahmin {
 
             System.out.println("tahmin : ");
             tahmin = scan.nextInt();
+            tahminler[i++]=tahmin;
             if (tahmin < 0 || tahmin > 10) {
                 System.out.println("lutfen 1-10 arasinda bir deger giriniz ...");
                 continue;
@@ -36,6 +38,10 @@ public class SayiTahmin {
             System.out.println("Kalan can :" + can);
         } else {
             System.out.println("basaramadin sayi :" + sayi);
+        }
+        System.out.println("tahminleriniz : ");
+        for (int value : tahminler){
+            System.out.print(value+",");
         }
     }
 
