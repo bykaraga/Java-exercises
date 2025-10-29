@@ -20,6 +20,6 @@ public class palindrom {
     }
 
     public static void main(String[] args){
-        System.out.println(isPalindrom(12321));
+        System.out.println(isPalindrom(2567));
     }
 }
