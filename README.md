@@ -78,3 +78,89 @@ Java-exercises/
 │   └── FileWrite.java
 │
 └── README.md
+```
+
+> ⚠️ Not: Klasör isimleri örnektir, kendi yapına göre değişiklik gösterebilir.
+
+---
+
+## ⚙️ Kurulum ve Çalıştırma
+
+1️⃣ **Projeyi klonlayın:**
+```bash
+git clone https://github.com/bykaraga/Java-exercises.git
+```
+
+2️⃣ **Klasöre girin:**
+```bash
+cd Java-exercises
+```
+
+3️⃣ **Herhangi bir Java dosyasını derleyin ve çalıştırın:**
+```bash
+javac src/basics/Loops.java
+java -cp src basics.Loops
+```
+
+💡 Her Java dosyası **bağımsız çalışabilir** — yani bir "main" metodu içerir.
+
+---
+
+## 🧩 Örnek Egzersiz Konuları
+
+| Kategori | Açıklama |
+|-----------|-----------|
+| 🧮 **Temel Operatörler** | Aritmetik, mantıksal ve karşılaştırma işlemleri |
+| 🔁 **Döngüler** | For, While, Do-While örnekleri |
+| ⚙️ **Metotlar** | Parametreli ve geri dönüşlü metotlar |
+| 🧱 **Sınıflar** | Constructor kullanımı, getter-setter yapısı |
+| 📦 **Diziler** | Tek boyutlu ve çok boyutlu diziler |
+| 📂 **Dosya İşlemleri** | Java I/O ile dosya okuma-yazma örnekleri |
+
+---
+
+## 💡 Kullanım Önerileri
+
+- Her egzersiz dosyasını **tek başına derleyip çalıştırabilirsiniz.**
+- Kodun altına kendi yorumlarınızı ekleyerek kişisel öğrenme notları tutabilirsiniz.
+- Eğer benzer bir konuda yeni bir örnek oluşturursanız, `exercises/` klasörüne ekleyin.
+
+---
+
+## 📘 Teknolojiler
+
+| Teknoloji | Açıklama |
+|------------|-----------|
+| ☕ **Java SE** | Ana programlama dili |
+| 💻 **VS Code / IntelliJ IDEA** | Geliştirme ortamı |
+| 🧠 **Git & GitHub** | Versiyon kontrol |
+| 🧩 **OOP Temelleri** | Nesne yönelimli yaklaşım |
+
+---
+
+## 🤝 Katkıda Bulunma
+
+Katkılarınızı memnuniyetle karşılarım 🙌  
+- Yeni egzersizler ekleyebilir  
+- Mevcut kodları daha verimli hâle getirebilir  
+- Açıklama satırlarını zenginleştirebilirsiniz  
+
+Adımlar:
+1. Repo’yu forkla  
+2. Yeni bir branch oluştur (`feature/new-exercise`)  
+3. Değişiklikleri commit et  
+4. Branch’ini push et  
+5. Pull Request gönder 🎉  
+
+---
+
+## 📄 Lisans
+
+Bu repo [MIT Lisansı](LICENSE) altında paylaşılmıştır.  
+© 2025 [bykaraga](https://github.com/bykaraga)
+
+---
+
+<p align="center">
+  Made with ☕ & ❤️ by <b>bykaraga</b>
+</p>
